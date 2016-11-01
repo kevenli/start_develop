@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Start Develop</title>
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+<style>
+    body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+</style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <![endif]-->
+  </head>
+  <body>
+<!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Start Develop</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#intro">项目介绍</a></li>
+            <li><a href="#scm">源代码管理</a></li>
+            <li><a href="#vm">虚拟机开发环境</a></li>
+              <li><a href="#java">Java</a></li>
+              <li><a href="#python">Python</a></li>
+              <li><a href="#Java">持续集成</a></li>
+              <li><a href="#Java">自动化运维</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Navbar example</h1>
+        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+        <p>To see the difference between static and fixed top navbars, just scroll.</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+        </p>
+      </div>
+        <div class="row">
+            <h2 id="scm">源代码管理</h2>
+            <table class="table">
+                <tr>
+                    <td>Git</td>
+                    <td>2.10.1</td>
+                    <td>Windows (X64)</td>
+                    <td><a href="http://marscode.oss-cn-shenzhen.aliyuncs.com/git/Git-2.10.1-64-bit.exe">本地链接</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="row">
+            <h2>虚拟机</h2>
+            <a id="vm"></a>
+                <table class="table">
+                <tr>
+                    <td>VirtualBox</td>
+                    <td>5.1.8</td>
+                    <td>Windows</td>
+                    <td><a href="http://marscode.oss-cn-shenzhen.aliyuncs.com/tools/virtualbox/virtualbox-5.1.8-111374-win.exe">本地链接</a></td>
+                </tr>
+                <tr>
+                    <td>Vagrant</td>
+                    <td>1.8.6</td>
+                    <td>Windows</td>
+                    <td><a href="http://marscode.oss-cn-shenzhen.aliyuncs.com/tools/vagrant/vagrant_1.8.6.msi">本地链接</a></td>
+                </tr>
+                </table>
+            <h2 >boxes</h2>
+            <table class="table">
+                <tr>
+                    <td>Centos (Python2.7)</td>
+                    <td>6.5</td>
+                    <td>VirtualBox</td>
+                    <td><a href="http://marscode.oss-cn-shenzhen.aliyuncs.com/box/centos_python27.box">本地链接</a></td>
+                </tr>
+
+            </table>
+
+        </div>
+        <div class="row">
+            <a id="java"></a>
+            <table class="">
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div class="row">
+            <h2 id="python">Python</h2>
+            <a href="#python"></a>
+            <table class="table">
+                <tr>
+                    <td>Python</td>
+                    <td>2.7.11</td>
+                    <td>Windows (amd64)</td>
+                    <td><a href="http://marscode.oss-cn-shenzhen.aliyuncs.com/python/python-2.7.11.amd64.msi">本地链接</a></td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>2.7.11</td>
+                    <td>Source</td>
+                    <td><a href="http://marscode.oss-cn-shenzhen.aliyuncs.com/python/python-2.7.11.amd64.msi">本地链接</a></td>
+                </tr>
+                <tr>
+                    <td>VCForPython27</td>
+                    <td>2.7.11</td>
+                    <td>Windows</td>
+                    <td><a href="http://marscode.oss-cn-shenzhen.aliyuncs.com/python/VCForPython27.msi">本地链接</a></td>
+                </tr>
+                <tr>
+                    <td>PyCharm</td>
+                    <td>community-2016.2.3</td>
+                    <td>Windows</td>
+                    <td><a href="http://marscode.oss-cn-shenzhen.aliyuncs.com/tools/pycharm/pycharm-community-2016.2.3.exe">本地链接</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="row">
+            <h2 id="database">Database</h2>
+            <table class="table">
+                <tr>
+                    <td>SqliteExpertPerson</td>
+                    <td></td>
+                    <td>Windows</td>
+                    <td><a href="http://marscode.oss-cn-shenzhen.aliyuncs.com/tools/sqlite/SQLiteExpertPersSetup.exe">本地链接</a></td>
+                </tr>
+                <tr>
+                    <td>SqliteExpertPerson</td>
+                    <td></td>
+                    <td>Windows (x64)</td>
+                    <td><a href="http://marscode.oss-cn-shenzhen.aliyuncs.com/tools/sqlite/SQLiteExpertPersSetup64.exe">本地链接</a></td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div> <!-- /container -->
+        <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
